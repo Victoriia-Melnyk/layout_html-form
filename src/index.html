@@ -12,8 +12,9 @@
   </head>
   <body>
     <script type="text/javascript" src="./main.js"></script>
-    <form action="https://mate-academy-form-lesson.herokuapp.com/create-application" 
-          method="post"
+    <form 
+      action="https://mate-academy-form-lesson.herokuapp.com/create-application" 
+      method="post"
     >
 
       <fieldset class="group">
@@ -105,20 +106,20 @@
           Do you love cats?
           <label for="loveCats">
             <input 
-            type="radio" 
-            name="cats" 
-            value="yes"
-            id="loveCats"
+              type="radio" 
+              name="cats" 
+              value="yes"
+              id="loveCats"
             >
             Yes
           </label>
           
           <label for="dontLoveCats">
             <input 
-            type="radio" 
-            name="cats" 
-            value="no"
-            id="dontLoveCats"
+              type="radio" 
+              name="cats" 
+              value="no"
+              id="dontLoveCats"
             >
             No
           </label>
@@ -148,7 +149,8 @@
             name="cars" 
             id="cars" 
             required 
-            multiple>
+            multiple
+          >
             <option value="bmw">BMW</option>
             <option value="audi">Audi</option>
             <option value="lada">Lada</option>
@@ -168,8 +170,7 @@
       <fieldset class="group">
         <legend>Additional info:</legend>
         
-        <label class="form_field"
-        >
+        <label class="form_field">
           Comments:
           <textarea 
             name="comments" 
